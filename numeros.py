@@ -69,3 +69,22 @@ print( "    ¿Cuántos caramelos se come cada uno?")
 print(f"    Tocamos a {20//8} caramelos por niño.")
 print( "    ¿Cuántos caramelos sobran?")
 print(f"    Sobran {20%8} caramelos.")
+print()
+
+# numero_int_uno valía 3
+print(f"El numero_int_uno vale: {numero_int_uno}")
+numero_int_uno = numero_int_uno + 2 
+# Después de sumarle 2, numero_int_uno vale 5
+print(f"El numero_int_uno vale: {numero_int_uno}")
+numero_int_uno += 2 
+# Después de sumarle 2, numero_int_uno vale 7
+print(f"El numero_int_uno vale: {numero_int_uno}")
+numero_int_uno -= 2
+# Después de restarle 2, numero_int_uno vale 5
+print(f"El numero_int_uno vale: {numero_int_uno}")
+numero_int_uno *= 2
+# Después de multiplicación 2, numero_int_uno vale 10
+print(f"El numero_int_uno vale: {numero_int_uno}")
+numero_int_uno /= 2
+# Después de dividirlo entre 2, numero_int_uno vale 5
+print(f"El numero_int_uno vale: {numero_int_uno}")
