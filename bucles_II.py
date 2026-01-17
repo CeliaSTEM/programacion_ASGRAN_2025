@@ -21,8 +21,19 @@ while numeroIntroducido != numero:
     numeroIntroducido = int(input("Introduce otro número: "))
 print(f"Lo has intentado {contadorIntentos} veces")
 
-# 2.- Contraseña correcta
+# 1.1.- Acierta el número. Patata caliente
+numero = random.randint(1,10)
+contadorIntentos = 1
+numeroIntroducido = int(input("Introduce un número: "))
+while numeroIntroducido != numero:
+    if numeroIntroducido < numero:
+        numeroIntroducido = int(input("Introduce un número más grande: "))
+    else:
+        numeroIntroducido = int(input("Introduce un número más pequeño: "))
+    contadorIntentos += 1
+print(f"Lo has intentado {contadorIntentos} veces")
 
+# 2.- Contraseña correcta
 contrasenia = "Boniato"
 intentosQueQuedan = 3
 contraseniaIntroducida = input(f"Introduce una contraseña, tienes {intentosQueQuedan} intentos: ") 
